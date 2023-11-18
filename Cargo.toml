@@ -7,14 +7,4 @@ edition = "2021"
 
 [dependencies]
 async-trait = "0.1.74"
-monoio = { version = "0.1.9", default-features = false, features = [
-    "async-cancel",
-    "sync",
-    "tracing",
-    "zero-copy",
-    "bytes",
-    "iouring",
-    "legacy",
-    "macros",
-    "utils",
-] }
+monoio = { version = "0.1.9", default-features = false, features = ["async-cancel", "sync", "tracing", "zero-copy", "bytes", "iouring", "legacy", "macros", "utils"] }
